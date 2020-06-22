@@ -4,13 +4,12 @@ import com.apirest.webflux.document.Playlist;
 import com.apirest.webflux.service.PlaylistService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
-@RestController
-@RequestMapping("/playlist")
+//@RestController
+//@RequestMapping("/playlist")  //testando o acesso pelo PlaylistHandler
 public class PlaylistController {
 
     @Autowired

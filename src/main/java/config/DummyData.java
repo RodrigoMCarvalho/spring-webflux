@@ -1,4 +1,4 @@
-package com.apirest.webflux;
+package config;
 
 import com.apirest.webflux.document.Playlist;
 import com.apirest.webflux.repository.PlaylistRepository;
