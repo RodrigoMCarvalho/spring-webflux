@@ -1,12 +1,4 @@
-package config;
-
-import com.apirest.webflux.document.Playlist;
-import com.apirest.webflux.repository.PlaylistRepository;
-import org.springframework.boot.CommandLineRunner;
-import org.springframework.stereotype.Component;
-import reactor.core.publisher.Flux;
-
-import java.util.UUID;
+package com.apirest.webflux.config;
 
 /*@Component
 public class DummyData  implements CommandLineRunner {

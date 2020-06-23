@@ -12,7 +12,7 @@ import reactor.core.publisher.Mono;
 import static org.springframework.web.reactive.function.BodyInserters.fromPublisher;
 import static org.springframework.web.reactive.function.server.ServerResponse.*;
 
-@Component
+//@Component  classe comentada para testar o Events Stream
 public class PlaylistHandler {
 
     @Autowired
